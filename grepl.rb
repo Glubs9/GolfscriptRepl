@@ -507,6 +507,10 @@ code = "'welcome to Jontes golfscript repl'p;"
 
 while code != "quit\n"
 
+  if code == "clear\n"
+    $stack = []
+  end
+
   code.compile.go
   gpush Garray.new($stack)
   'puts'.compile.go
