@@ -10,3 +10,5 @@ I have never coded in ruby before so my code isn't that great.
 Originally I created this in python but the stack wasn't maintained throughout the repl so I had to hack this together.                 
 
 To run this just run the file in ruby and it will do the repl.                
+
+I added two extra commands. type quit to quit the repl. Type clear to clear the stack.
